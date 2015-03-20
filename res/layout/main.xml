@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position is:"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/myLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/myLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+<Button
+ android:id="@+id/retrieve_location_button" 
+ android:text="Retrieve Location"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content" 
+ />
+
+</LinearLayout>
